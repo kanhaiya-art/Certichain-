@@ -1,0 +1,21 @@
+CERTICHAIN — QUICK START
+
+PHONE / ONLINE
+1. Extract this ZIP.
+2. Upload the files and folders inside CertiChain_Project to a public GitHub repository. Do not upload the ZIP as a single file.
+3. In Streamlit Community Cloud, create an app from that repository and set the main file to app.py.
+4. Deploy and open the generated website URL.
+
+WINDOWS / LOCAL
+Open a terminal in this folder and run:
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+
+DEMO
+1. Download a sample PDF from the dashboard.
+2. Open Verify certificate and upload the unchanged PDF.
+3. Generate a demo certificate and try verifying it.
+4. Open Ledger explorer and run the tampering simulation.
+
+LIMIT
+This demonstrates SHA-256 and hash-linked records. It is not a decentralized blockchain or proof that a real institution issued a certificate.
